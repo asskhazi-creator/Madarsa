@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masjid Al-Noor | Community Center</title>
+    <style>
+        /* General Styles */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        header { background: #1a472a; color: #fff; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: auto; padding: 0 20px; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+        nav ul { list-style: none; display: flex; gap: 20px; }
+        nav a { color: #fff; text-decoration: none; }
+        
+        /* Sections */
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1542816417-0983c9c9ad53?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); background-size: cover; color: #fff; text-align: center; padding: 100px 20px; }
+        
+        /* Prayer Table */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
+        th { background: #1a472a; color: white; }
+        
+        /* Footer */
+        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        
+        @media (max-width: 600px) { nav ul { display: none; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Masjid Al-Noor</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#prayers">Prayer Times</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Masjid Al-Noor</h1>
+        <p>A community hub for prayer, education, and peace.</p>
+    </section>
+
+    <section id="prayers">
+        <h2>Daily Prayer Times</h2>
+        <table>
+            <tr><th>Prayer</th><th>Start Time</th><th>Iqamah</th></tr>
+            <tr><td>Fajr</td><td>05:00 AM</td><td>05:30 AM</td></tr>
+            <tr><td>Dhuhr</td><td>01:15 PM</td><td>01:30 PM</td></tr>
+            <tr><td>Asr</td><td>04:30 PM</td><td>05:00 PM</td></tr>
+            <tr><td>Maghrib</td><td>Sunset</td><td>5 min after</td></tr>
+            <tr><td>Isha</td><td>08:00 PM</td><td>08:15 PM</td></tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> 123 Peace Lane, Community City</p>
+        <p><strong>Email:</strong> info@masjidalnoor.com</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Masjid Al-Noor. All Rights Reserved.</p>
+    </footer>
+
+</body>
+      </html>
